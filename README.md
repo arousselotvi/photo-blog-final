@@ -17,7 +17,9 @@ Dans le terminal, à la racine du projet: `npm install`
 
 Se rendre dans le sous dossier angular-rc: `cd /angular-src`
 
-Puis rentrer la commande suivante: `ng build`
+Telecharger les dependencies du projet Angular: `npm install`
+
+Enfin, build le projet avec la commande suivante: `ng build`
 
 ### Step4: Lancer le projet
 
