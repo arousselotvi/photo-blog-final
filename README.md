@@ -1,27 +1,29 @@
-# AngularSrc
+# Mon Blog Photo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+Projet réalisé avec Angular 6 et Node.js (Express).
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Comment déployer cette application?
 
-## Code scaffolding
+### Step1: Cloner ce repository
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`git clone https://github.com/arousselotvi/photo-blog-final.git "VOTRE_NOM_DE_DOSSIER"`
 
-## Build
+### Step2: Installer les depedencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Dans le terminal, à la racine du projet: `npm install`
 
-## Running unit tests
+### Step3: Builder la partie Angular (nécéssite l'installation préalable d'angular-cli):
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Se rendre dans le sous dossier angular-rc: `cd /angular-src`
 
-## Running end-to-end tests
+Puis rentrer la commande suivante: `ng build`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Step4: Lancer le projet
 
-## Further help
+A la racine du projet : `node app.js`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Step5: Tester l'application
+
+Le blog est consultable à l'addresse suivante: `http://localhost:3000`
+
